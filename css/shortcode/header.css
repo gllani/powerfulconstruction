@@ -1,0 +1,336 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Simply Construction HTML Template.
+  Template URI: #
+  Description: Simply Construction is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: FlexBoom Media LLC
+  Version: 1.0
+-------------------------------------------------------------------------------------*/
+/*
+
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+
+
+*/
+
+
+/*----------------------------------
+  Header Top Area
+-------------------------------------*/
+
+.heaher__top__left {
+    align-items: center;
+    display: flex;
+    height: 45px;
+}
+.header__top__right {
+    align-items: center;
+    display: flex;
+    height: 45px;
+    justify-content: flex-end;
+}
+.login-register {
+    display: flex;
+    margin-right: 47px;
+}
+.heaher__top__left li {
+    color: #fff;
+    font-size: 12px;
+}
+.heaher__top__left li + li {
+    margin-left: 47px;
+}
+.heaher__top__left li i {
+    padding-right: 12px;
+}
+.login-register li a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.login-register li.separator {
+    color: #fff;
+    padding: 0 10px;
+}
+.heaher__top__btn a {
+    align-items: center;
+    background: #fcc236 none repeat scroll 0 0;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    height: 45px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.heaher__top__btn a:hover {
+    color: #060606;
+}
+
+
+/*----------------------------------------
+  Menu basic style
+------------------------------------------*/
+
+
+.header {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content, if needed */
+}
+.main__menu {
+  display: flex;
+  justify-content: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  font-size: 22px; /* Increase the text size */
+  font-weight: bold; 
+}
+.main__menu > li > a {
+  color: #1f2d30;
+  display: block;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  height: 130px;
+  line-height: 130px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 22px; /* Increase the text size */
+  font-weight: bold; 
+}
+.main__menu li {
+  position: relative;
+  font-size: 22px; /* Increase the text size */
+  font-weight: bold; 
+}
+.main__menu > li:hover > a{
+  color: #fcc236;
+  font-size: 22px; /* Increase the text size */
+  font-weight: bold; 
+}
+/* Base styles */
+
+
+
+
+.logo a img {
+  width: 130px; /* Adjusted width */
+  height: 65px; /* Adjusted height */
+  margin-top: 0; /* Adjust margin as needed for smaller screens */
+  margin-left: -40px;
+}
+
+/* Logo styles for screens 1440px and wider */
+@media only screen and (min-width: 1435px) {
+  .logo a img {
+    width: auto; /* Original width */
+    height: auto; /* Original height */
+    max-width: 200px; /* Adjust if the original size is different */
+    padding-bottom: 30px; /* Original padding */
+    margin-top: 20px; /* Original margin */
+  }
+}
+
+
+.main__menu li {
+    padding: 0 15px;
+    font-size: 22px; /* Increase the text size */
+    font-weight: bold; 
+}
+/* Hide .phone_text by default */
+/* Hide the phone_text by default */
+.phone_text {
+  display: none;
+}
+
+/* Style for the phone_text to be displayed on larger screens */
+@media only screen and (min-width: 1435px) {
+  .phone_text {
+    display: flex; /* Display the phone_text and align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: flex-end; /* Align to the right of its container */
+    font-size: 25.2px; /* Font size for the phone number */
+    color: #030303; /* Adjust the color as needed */
+    padding: 0 15px; /* Adjust padding as needed */
+    margin-top: 45px;
+    background-color: #fff3d872;
+  }
+
+  /* Style for the phone icon within the phone_text */
+  .phone_text .fa-phone {
+    font-size: 22px; /* Font size for the phone icon */
+  }
+}
+
+/* Ensure the .phone_text is not displayed when the header is in its sticky state */
+.sticky__header.scroll-header .phone_text {
+  display: none;
+}
+
+
+.htc__header__search {
+    align-items: center;
+    display: flex;
+    height: 130px;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+.htc__header__search input {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: transparent none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #e1e1e1;
+  border-image: none;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  color: #bfbfbf;
+  line-height: 25px;
+  padding-bottom: 2px;
+  padding-right: 23px;
+  padding-top: 2px;
+  width: 100%;
+}
+.htc__header__search a i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-53%);
+    transition: 0.4s;
+}
+.htc__header__search a i:hover{
+    color: #fcc236;
+}
+.htc__header__search i {
+    color: #bfbfbf;
+    font-size: 12px;
+}
+.htc__header__search input::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+
+/*-----------------------------------------
+  Sticky  For  Header
+-------------------------------------------*/
+/* Styles for the sticky header when scrolled */
+.sticky__header.scroll-header {
+  animation: fadeInDown 300ms ease-in-out 0s 1 normal running; /* Smooth fadeInDown animation */
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: fixed; /* Fixed position to stay at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; /* Full width */
+  margin: 0 auto; /* Centered horizontally */
+  z-index: 99; /* High z-index to stay on top of other content */
+}
+
+/* Adjust the height and line-height of main menu links for the sticky header */
+.sticky__header.scroll-header .main__menu > li > a {
+  height: 70px;
+  line-height: 70px; /* Align text vertically in the center */
+}
+
+.sticky__header.scroll-header .logo {
+  max-width: 120px; 
+}
+
+.sticky__header.scroll-header .logo a img {
+  max-width: 120px; 
+  transform: translateY(-12px);}
+
+.sticky__header.scroll-header  {
+  height: 70px;
+  line-height: 70px; /* Vertically center the content */
+}
+
+
+
+
+
+
+.fluid-container.mobile-menu-container {
+  position: relative;
+}
+.mobile-logo {
+  align-items: center;
+  display: flex;
+  height: 52px;
+  left: 0;
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  z-index: 2147483647;
+}
+.mobile-logo img {
+  max-height: 20px;
+  max-width: 10px;
+  
+}
+
+/*-----------------------------
+  Dropdown Menu
+--------------------------------*/
+.main__menu li.drop{
+    position: relative;
+}
+
+.main__menu li.drop ul.dropdown {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 120%;
+  transition: all 0.2s ease-in-out 0s;
+  visibility: hidden;
+  width: 220px;
+  z-index: 999;
+}
+
+.main__menu li.drop:hover ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main__menu ul.dropdown li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding: 0;
+}
+.main__menu ul.dropdown li a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #1f2d30;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 15px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.main__menu li.drop ul.dropdown li:hover > a {
+    background: #fafafa none repeat scroll 0 0;
+    color: #fcc236;
+}
+
+
+
+
+
+
+
+
+
+
+
