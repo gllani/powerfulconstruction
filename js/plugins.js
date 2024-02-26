@@ -1,38 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-  Template Name: Simply Construction HTML Template.
-  Template URI: #
-  Description: Simply Construction is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
-  Author: DevItems
-  Version: 1.0
-
------------------------------------------------------------------------------------
-
-
-/*-------------------------------------
-[  Table of contents  ]
----------------------------------------
-  01. Avoid `console` errors in browsers that lack a console.
-  02. Scrollup jquery   
-  03. WOW / scrolling animation 
-  04. Isotope PACKAGED v2.2.0
-  05. MeanMenu jquery Menu Plugin / Mobile Menu
-  06. Scrollup jquery
-  07. CounterUp jquery menu plugin
-  08. Isotope PACKAGED v2.2.0
-  09. Contact Form
-  10. Scrollreveal.min.js
-  11. Magnific Popup
-
-  
-------------------------------------
-[ End table content ]
------------------------------------*/
-
-/*-------------------------------------------------------------
-  01. Avoid `console` errors in browsers that lack a console.
----------------------------------------------------------------*/
-
 
 (function() {
     var method;

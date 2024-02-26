@@ -1,33 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-  Template Name: Simply Construction HTML Template.
-  Template URI: #
-  Description: Simply Construction is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
-  Author: DevItems
-  Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-/*-------------------------------
-[  Table of contents  ]
----------------------------------
-  01. jQuery MeanMenu
-  02. wow js active
-  03. Project  Masonry
-  04. Sticky Header
-  05. ScrollUp
-  06. Testimonial Slick Carousel
-  07. Testimonial Slick Carousel
-  08. CounterUp
-  16. ScrollReveal Js Init
-  17. Magnific Popup
-
-
-
-
-/*--------------------------------
-[ End table content ]
------------------------------------*/
 
 
 (function($) {
